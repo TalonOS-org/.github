@@ -1,7 +1,7 @@
 # TalonOS: Precision Intelligence Distribution
 
 <div align="center">
-  <img src="assets/logos/talonos-logo.svg" alt="TalonOS Logo" width="200"/>
+  <img src="logo-bg.png" alt="TalonOS Logo" width="200"/>
 
   **🦅 PRECISION INTELLIGENCE 🦅**
 
