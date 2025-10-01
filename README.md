@@ -104,34 +104,30 @@ This project is licensed under the **MIT License** – see [LICENSE](LICENSE).
 
 TalonOS is not just another Linux distribution — it is built as a precision intelligence platform. Our mission is to empower professionals, researchers, and defenders with the sharpest edge in OSINT and cyber operations.
 
-**What TalonOS is Here to Do**
+**Current Focus**
 
-* Unify OSINT Operations → Bring together 247+ reconnaissance, analytics, and investigation tools into a seamless environment.
+*  Unified OSINT → 247+ tools integrated into one mission-ready environment.
   
-* Prioritize Security by Design → Hardened kernel, sandboxed execution, reproducible builds, and verified package updates.
+* Security by Design → Hardened kernel, sandboxing, and verified updates.
 
-* Accelerate Investigations → Optimized workflows and custom automation utilities for intelligence gathering at scale.
+* Accelerated Investigations → Optimized workflows and automation at scale.
   
-* Enable Global Reach → Tools designed for multilingual data collection, cross-platform targeting, and decentralized sources.
+* Global Reach → Multilingual, cross-platform, and decentralized intelligence.
   
-* Support Red & Blue Teams → Equally useful for offensive red-team operations and defensive blue-team threat hunting.
+* Dual Use → Serving both red-team operators and blue-team defenders.
+
+
+**Future Vision**
+
+* AI-Driven Intelligence → Automated correlation, scoring, and link analysis.
   
-* Integrate With Ecosystems → APIs and modular design allow integration with enterprise SIEM, SOAR, and DFIR pipelines.
+* Threat Modeling at Scale → Adversary simulation and attack surface mapping.
 
+* Cloud & Kubernetes Ready → Hybrid and containerized deployments..
 
-**What TalonOS is Here to Do**
+* Advanced Visualization → Interactive dashboards and knowledge graphs.
 
-* AI-Powered Intelligence → Automating data correlation, threat scoring, and link analysis across multiple sources.
-  
-* Threat Modeling at Scale → Simulating adversary behavior and mapping attack surfaces with precision.
-
-* Cloud-Native Deployments → Running TalonOS in hybrid cloud, Kubernetes clusters, and containerized environments.
-
-* Advanced Visualization → Interactive dashboards and knowledge graphs to make intelligence actionable.
-
-* Multilingual & Global OSINT → Expanding toolsets for non-English data sources, regional threat landscapes, and cultural intelligence.
-
-* Next-Gen Security Hardening → Ongoing kernel security engineering, exploit mitigations, and red-team tested defenses.
+* Next-Gen Hardening → Kernel-level defenses, exploit mitigations, and red-team validation.
 
 ---
 
