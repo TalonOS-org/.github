@@ -15,119 +15,143 @@
 
 ---
 
-## Table of Contents
+## Executive Summary
 
-- [Overview](#overview)
-- [Mission Statement](#mission-statement)
-- [Key Features](#key-features)
-- [Statistics & Metrics](#statistics--metrics)
-- [Tool Categories](#tool-categories)
-- [System Requirements](#system-requirements)
-- [Installation](#installation)
-- [Configuration & Customization](#configuration--customization)
-- [Usage Examples](#usage-examples)
-- [Documentation & Support](#documentation--support)
-- [Updates & Maintenance](#updates--maintenance)
-- [Security, Legal & Disclaimer](#security-legal--disclaimer)
-- [License & Contributors](#license--contributors)
-- [Roadmap](#roadmap)
-- [Acknowledgments](#acknowledgments)
+**TalonOS** is the world’s most advanced OSINT operating system, engineered for cyber warriors, red teams, and intelligence analysts.  
+With **247+ integrated tools**, mission-ready performance, and uncompromising operational security, TalonOS empowers professionals to conduct precise, lawful, and efficient investigations at scale.
 
 ---
 
-## Overview
+## Documentation & Support
 
-**TalonOS** is an advanced, cutting-edge OSINT distribution designed to empower cyber intelligence professionals. Built with military-grade operational security and optimized for lightning speed, TalonOS aggregates a comprehensive suite of tools for precision intelligence gathering and analysis. This is an ongoing project with a potential release scheduled for **January 5, 2026**.
+* 📘 **[Installation Guide](docs/installation.md)**
+* 📖 **[User Manual](docs/user-manual.md)**
+* 🛠️ **[Tool Reference](docs/tool-reference.md)**
+* 💻 **[API Documentation](docs/api.md)**
+* 🤝 **[Contributing Guide](CONTRIBUTING.md)**
+* 🔒 **[Security Guidelines](docs/security.md)**
 
----
+### Community Channels
 
-## Mission Statement
+* **Discord:** [TalonOS Community](https://discord.gg/talonos)
+* **Forums:** [community.talonos.org](https://community.talonos.org)
+* **Reddit:** [r/TalonOS](https://reddit.com/r/TalonOS)
 
-TalonOS is committed to delivering unparalleled OSINT capabilities through a curated toolkit, ensuring that every investigation is precise, secure, and efficient. Our distribution is engineered for cyber warriors who demand accuracy without compromise.
+### Professional Support
 
----
-
-## Key Features
-
-### 🦅 Predatory Vision
-- **Advanced Pattern Recognition:** Intelligent data correlation and target identification.
-- **Real-Time Integration:** Seamlessly assimilates threat intelligence as events unfold.
-
-### 🎯 Surgical Precision
-- **Focused Reconnaissance:** Tools for pinpoint digital footprint reduction.
-- **Automated OPSEC:** Integrated checks to ensure compliance with operational security best practices.
-
-### 🛡️ Tactical Supremacy
-- **Robust Security:** Incorporates military-grade operational security.
-- **Enterprise-Grade Analysis:** Designed for critical threat modeling and in-depth intelligence analysis.
-
-### ⚡ Lightning Performance
-- **Optimized Processing:** Parallel processing for rapid intelligence aggregation.
-- **Efficient Resource Use:** Ensures fast performance even in data-heavy scenarios.
+* 📩 **Enterprise:** [enterprise@talonos.org](mailto:enterprise@talonos.org)
+* 📩 **Training:** [training@talonos.org](mailto:training@talonos.org)
+* 📩 **Development:** [dev@talonos.org](mailto:dev@talonos.org)
 
 ---
 
-## Statistics & Metrics
+## Updates & Maintenance
 
-| **Metric**          | **Value**      |
-|---------------------|----------------|
-| **OSINT Tools**     | 247 Active     |
-| **Categories**      | 15 Specialized |
-| **Uptime**          | 99.9%          |
-| **Support**         | 24/7           |
-
----
-
-## Tool Categories
-
-### 🔍 Reconnaissance
-- Passive information gathering, subdomain enumeration, DNS analysis, and network mapping.
-
-### 🌐 Web Intelligence
-- Website analysis, technology detection, wayback integration, web scraping, and SSL/TLS scrutiny.
-
-### 📱 Social Media Intelligence
-- Profile analysis, relationship mapping, content extraction, sentiment analysis, and timeline reconstruction.
-
-### 🔐 Cryptography & Security
-- Hash analysis, steganography, blockchain investigation, and digital forensics.
-
-### 📊 Data Analysis
-- Pattern recognition, statistical tools, data visualization, and link correlation.
-
-### 🔊 Dark Web Monitoring
-- Onion service discovery, darknet market analytics, anonymous communications review, and threat gathering.
-
----
-
-## System Requirements
-
-### Minimum
-- **CPU:** Intel i5 / AMD Ryzen 5 (4 cores)
-- **RAM:** 8GB DDR4
-- **Storage:** 64GB SSD
-- **Network:** Stable Internet connection
-
-### Recommended
-- **CPU:** Intel i7 / AMD Ryzen 7 (8+ cores)
-- **RAM:** 16GB+ DDR4
-- **Storage:** 256GB+ NVMe SSD
-- **GPU:** Dedicated graphics (optional)
-- **Network:** High-speed Internet (VPN capable)
-
----
-
-## Installation
-
-### Quick Start
+### Automatic Updates
 
 ```bash
-# Clone the repository
-git clone https://github.com/talonos-project/talonos.git
-cd talonos
+# Enable automatic updates
+sudo talon-update --enable-auto
 
-# Run the installer
-sudo ./install.sh
+# Check for updates
+talon-update --check
 
-# Verify the installation
-talon-verify --system-check
+# Install latest updates
+sudo talon-update --install-all
+```
+
+### Tool Management
+
+```bash
+# List installed tools
+talon-tools --list
+
+# Update specific tool
+talon-tools --update nmap
+
+# Install new tools
+talon-tools --install subfinder
+```
+
+---
+
+## Security, Legal & Disclaimer
+
+### Security Notice
+
+TalonOS is intended **only for authorized professionals and researchers**. Always ensure you have **explicit permission** before conducting investigations or intelligence gathering.
+
+### Legal Compliance
+
+* Respect all privacy and data protection laws.
+* Obtain authorization before conducting tests.
+* Follow responsible disclosure practices.
+* Comply with platform and service terms.
+
+### Disclaimer
+
+TalonOS is for **educational and authorized use only**. The developers accept no liability for misuse or unlawful activity. Users are solely responsible for their actions.
+
+---
+
+## License
+
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE).
+
+---
+
+## Future Directions
+
+TalonOS is not just another Linux distribution — it is built as a precision intelligence platform. Our mission is to empower professionals, researchers, and defenders with the sharpest edge in OSINT and cyber operations.
+
+**What TalonOS is Here to Do**
+
+* Unify OSINT Operations → Bring together 247+ reconnaissance, analytics, and investigation tools into a seamless environment.
+  
+* Prioritize Security by Design → Hardened kernel, sandboxed execution, reproducible builds, and verified package updates.
+
+* Accelerate Investigations → Optimized workflows and custom automation utilities for intelligence gathering at scale.
+  
+* Enable Global Reach → Tools designed for multilingual data collection, cross-platform targeting, and decentralized sources.
+  
+* Support Red & Blue Teams → Equally useful for offensive red-team operations and defensive blue-team threat hunting.
+  
+* Integrate With Ecosystems → APIs and modular design allow integration with enterprise SIEM, SOAR, and DFIR pipelines.
+
+
+**What TalonOS is Here to Do**
+
+* AI-Powered Intelligence → Automating data correlation, threat scoring, and link analysis across multiple sources.
+  
+* Threat Modeling at Scale → Simulating adversary behavior and mapping attack surfaces with precision.
+
+* Cloud-Native Deployments → Running TalonOS in hybrid cloud, Kubernetes clusters, and containerized environments.
+
+* Advanced Visualization → Interactive dashboards and knowledge graphs to make intelligence actionable.
+
+* Multilingual & Global OSINT → Expanding toolsets for non-English data sources, regional threat landscapes, and cultural intelligence.
+
+* Next-Gen Security Hardening → Ongoing kernel security engineering, exploit mitigations, and red-team tested defenses.
+
+---
+
+## Acknowledgments
+
+* OSINT community & open-source developers
+* Security researchers and professionals
+* Beta testers and early adopters
+* All TalonOS contributors
+
+---
+
+<div align="center">
+
+**🦅 "Strike First, Strike Precise" 🦅**
+
+*Built with ❤️ by the TalonOS Team*
+
+[🌍 Website](https://talonos.org) • [📘 Documentation](https://docs.talonos.org) • [💬 Community](https://community.talonos.org)
+
+</div>  
+
+---
